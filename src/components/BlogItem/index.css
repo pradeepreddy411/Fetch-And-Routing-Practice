@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.item-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 120px;
+}
+.item-image {
+  height: 110px;
+  width: 200px;
+  margin-right: 30px;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: Roboto;
+  flex-wrap: wrap;
+}
+.item-topic {
+  font-size: 10px;
+  color: #8e8e8e;
+}
+.item-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+}
+.author-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.avatar {
+  height: 25px;
+  width: 25px;
+  border-radius: 12px;
+}
+.author-name {
+  font-size: 10px;
+  color: #8e8e8e;
+}
